@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #38cc77;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+}
+.heading {
+  background-color: rgb(226, 228, 222);
+  padding: 2rem;
+  text-align: center;
+  font-family: "Crimson Text", serif;
+  width: 100%;
+}
+.form {
+  width: 100%;
+  padding-left: 3rem;
+}
+.question-box {
+  font-size: 1.4rem;
+  padding: 1rem;
+}
+p {
+  margin-bottom: 1rem;
+  font-family: "Crimson Text", serif;
+  font-weight: 600;
+}
+.options {
+  display: flex;
+  flex-direction: column;
+  font-family: "Crimson Text", serif;
+}
+.options label {
+  padding: 0.4rem;
+}
+.submit-btn {
+  padding: 1rem;
+  border: none;
+  background-color: cadetblue;
+  font-size: 1.2rem;
+  border-radius: 10px;
+}
+
+.output {
+  background-color: #50dbb4;
+  font-size: 1.4rem;
+  text-align: center;
+  display: none;
+  font-family: "Libre Baskerville", serif;
+  padding: 2rem;
+  width: 100%;
+}
